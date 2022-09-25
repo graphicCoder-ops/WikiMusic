@@ -1,0 +1,44 @@
+/* do selected things*/
+Button:hover{
+    -fx-background-color:crimson;
+    -fx-text-fill:white;
+    -fx-background-radius:2px;
+    
+    -fx-border-color:transparent;
+}
+Button{
+    -fx-border-width:2px;
+    -fx-border-color:white;
+    -fx-background-color:transparent;
+    -fx-text-fill: white;
+    -fx-background-radius:10px;
+    -fx-border-radius:10px;
+}
+.root{
+    -fx-background-color:black;
+}
+TextField:readonly{
+    -fx-background-color:#1f1e1e;
+    -fx-text-fill:white;
+    -fx-border-color:none;
+}
+TextField{
+    -fx-background-color:#121212;
+    -fx-text-fill:white;
+    -fx-border-color:red;
+    -fx-border-width:2px;
+    -fx-border-style:hidden hidden solid hidden;
+}
+TextArea:readonly{
+    -fx-text-fill:white;
+  
+    -fx-border-color:none;
+}
+TextArea{
+    -fx-border-width:2px;
+    -fx-border-color:red;
+    -fx-text-fill:white;
+}
+TextArea .content {
+    -fx-background-color: #121212;
+}

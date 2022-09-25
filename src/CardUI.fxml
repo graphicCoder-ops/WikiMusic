@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="204.0" prefWidth="161.0" style="-fx-background-color: #1f1e1e; -fx-background-radius: 10px;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CardController">
+   <children>
+      <Button fx:id="deleteBtn" layoutX="91.0" layoutY="165.0" mnemonicParsing="false" style="-fx-background-color: red;" text="Delete" />
+      <ImageView fx:id="imgView" fitHeight="103.0" fitWidth="115.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../cool-ok.gif" />
+         </image></ImageView>
+      <Button fx:id="openBtn" layoutX="14.0" layoutY="165.0" mnemonicParsing="false" style="-fx-background-color: green;" text="Open" />
+      <Label fx:id="titleTxt" layoutX="23.0" layoutY="108.0" prefHeight="27.0" prefWidth="115.0" style="-fx-background-color: #1f1e1e;" text="No Name" textFill="#b5b5b5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="artistTxt" layoutX="23.0" layoutY="135.0" prefHeight="17.0" prefWidth="115.0" style="-fx-background-color: #1f1e1e;" text="No Artist" textFill="#bfbfbf" />
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
