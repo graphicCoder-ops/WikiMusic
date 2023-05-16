@@ -5,7 +5,7 @@ WikiMusic is a JavaFX application that allows users to manage songs in a databas
 The application features a beautiful and intuitive UI design, making it enjoyable to use. The clean and responsive layout ensures that users can navigate through the application effortlessly and perform operations with ease. The goal of Songpedia is to provide a seamless and efficient experience for managing songs, similar to Wikipedia for songs.
 
 ## Features
-CRUD Operations: Perform Create, Read, Update, and Delete operations on songs.
+CRUD Operations: Perform Create, Read, Update, and Delete operations on songs.\n
 Search Functionality: Easily search for songs by title, artist, album, or genre.
 Song Details: View detailed information about each song, including its title, artist, album, genre, and release date.
 Add New Songs: Add new songs to the database by providing the necessary details.
