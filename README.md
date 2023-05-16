@@ -14,5 +14,5 @@ Delete Songs: Remove songs from the database with a simple delete operation.<br 
 Beautiful UI: Enjoy a visually appealing and user-friendly interface for a seamless user experience.<br />
 Responsive Design: Ensure optimal usability on different screen sizes and resolutions.<br />
 ## Technologies Used
-JavaFX: JavaFX is used for building the graphical user interface (GUI) of the application.
+JavaFX: JavaFX is used for building the graphical user interface (GUI) of the application.<br />
 FXML: FXML is used for designing the UI layout using XML-based markup.
